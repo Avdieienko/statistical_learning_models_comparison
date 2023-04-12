@@ -37,8 +37,8 @@ for i in range(df.shape[0]):
 
 df["profitable"] = profitable
 
-regression_target = "revenue"
-classification_target = "profitable"
+# regression_target = "revenue"
+# classification_target = "profitable"
 
 
 df = df.replace(np.inf, np.nan)
